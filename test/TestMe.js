@@ -1,4 +1,4 @@
-import React, { View, Text, StyleSheet } from 'react-native';
+import React, { Text, View } from 'react-native';
 import { shallow } from 'enzyme';
 import TestMe from '../components/TestMe';
 import { expect } from 'chai';

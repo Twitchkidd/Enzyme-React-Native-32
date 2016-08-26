@@ -1,6 +1,4 @@
 import React, {
-  StyleSheet,
-  PropTypes,
   View,
   Text,
 } from 'react-native';
@@ -14,9 +12,3 @@ export default class TestMe extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-
-  },
-});
