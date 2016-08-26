@@ -1,0 +1,23 @@
+{
+  "name": "enzymeTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive test/*.js"
+  },
+  "dependencies": {
+    "react": "15.3.1",
+    "react-native": "0.32.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-react-native": "^1.9.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.4.1",
+    "mocha": "^3.0.2",
+    "react-addons-test-utils": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-native-mock": "^0.2.6"
+  }
+}
